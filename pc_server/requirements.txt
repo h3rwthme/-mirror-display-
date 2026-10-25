@@ -1,0 +1,13 @@
+# 1. Screen Capture & High-Speed Image Encoding (Socket 1)
+mss>=9.0.1
+opencv-python-headless>=4.10.0.84
+numpy>=1.26.4
+
+# Opsional: GPU Desktop Duplication API Capture (Ultra-High FPS di Windows)
+# dxcam>=0.0.5
+
+# 2. Mouse & Keyboard Simulation (Socket 2)
+pynput>=1.7.7
+
+# 3. Windows WASAPI Audio Loopback Capture (Socket 3)
+PyAudioWPatch>=0.2.12.6
